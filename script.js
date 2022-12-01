@@ -45,7 +45,7 @@ window.onload = function () {
             const likeBtn = crel('button');
             const delBtn = crel('button');
             
-            likeBtn.innerHTML = '♥';
+            //likeBtn.innerHTML = '♥';
             likeBtn.onclick = () => likeTodo(id);
             delBtn.innerHTML = 'x';
             delBtn.onclick = () => delTodo(id);
